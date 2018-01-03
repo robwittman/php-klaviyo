@@ -1,0 +1,23 @@
+{
+    "name": "robwittman/php-klaviyo",
+    "description": "PHP SDK For Klaviyo's API",
+    "authors": [
+        {
+            "name": "Rob Wittman",
+            "email": "rob@ihsdigital.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Klaviyo\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Klaviyo\\Test\\": "test"
+        }
+    }
+}
